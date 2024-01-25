@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    border: 10px solid #ccc;
+    background-color: #fafafa;
+    padding: 20px;
+    text-align: center;
+}
+
+.card h1 {
+    font-size: 1.5em;
+}
+
+.card p {
+    font-size: 0.75em;
+}
